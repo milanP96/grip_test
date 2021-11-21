@@ -138,3 +138,4 @@ class TestAdditionalCases(TestFakeDbCase):
                 next(filter(lambda x: x["user_id"] == 2, self.user_features))["features_allowed"]
             )
 
+    # TODO Test exceptions

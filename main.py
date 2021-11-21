@@ -37,6 +37,7 @@ class TimeSequence:
 
 def get_playback_time(user_id: int, records: list) -> int:
     """ This functions returns playback time for user on all devices """
+
     user_records = filter(lambda r: r["user_id"] == user_id, records)
 
     starts_per_device = dict()
@@ -56,7 +57,7 @@ def get_playback_time(user_id: int, records: list) -> int:
 
         else:
             if not record["device"] in starts_per_device:
-                raise BaseException("Tried to stop device wich is not started")
+                raise BaseException("Tried to stop device which is not started")
 
             time_sequences[-1].stop = record["date_actioned"]
             del starts_per_device[record["device"]]
