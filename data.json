@@ -1,0 +1,109 @@
+{
+  "actions": [
+    {
+      "user_id": 1,
+      "device": "Windows 10",
+      "action": "start",
+      "date_actioned": 100
+    },
+    {
+      "user_id": 2,
+      "device": "OSX 15.4",
+      "action": "start",
+      "date_actioned": 200
+    },
+    {
+      "user_id": 1,
+      "device": "iPhone 8s",
+      "action": "start",
+      "date_actioned": 250
+    },
+    {
+      "user_id": 1,
+      "device": "Windows 10",
+      "action": "stop",
+      "date_actioned": 370
+    },
+    {
+      "user_id": 1,
+      "device": "iPhone 8s",
+      "action": "stop",
+      "date_actioned": 410
+    },
+    {
+      "user_id": 2,
+      "device": "OSX 15.4",
+      "action": "stop",
+      "date_actioned": 490
+    },
+    {
+      "user_id": 3,
+      "device": "Android 9.1",
+      "action": "start",
+      "date_actioned": 700
+    }
+  ],
+  "user_apps": [
+    {
+      "app_id": 1
+    },
+    {
+      "app_id": 2
+    },
+    {
+      "app_id": 3
+    },
+    {
+      "app_id": 126
+    }
+  ],
+  "app_features": [
+    {
+      "app_id": 1,
+      "features_available": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "app_id": 2,
+      "features_available": [
+        3,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "app_id": 3,
+      "features_available": [
+        3,
+        12
+      ]
+    }
+  ],
+  "user_features": [
+    {
+      "user_id": 1,
+      "features_allowed": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "user_id": 2,
+      "features_allowed": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "user_id": 3,
+      "features_allowed": []
+    }
+  ]
+}
